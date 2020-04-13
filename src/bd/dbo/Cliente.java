@@ -1,4 +1,4 @@
-package dao;
+package bd.dbo;
 public class Cliente{
     private String email,nome,estado,cidade,bairro,rua,complemento;
     private int numero;
