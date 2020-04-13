@@ -14,6 +14,19 @@ public class Cliente{
         this.setNumero(numero);
     }
 
+    public Cliente(Cliente modelo) throws Exception {
+        if(modelo == null)
+                throw new Exception("modelo não pode ser nulo");
+        this.email = modelo.email;
+        this.nome = modelo.nome;
+        this.estado = modelo.estado;
+        this.cidade = modelo.cidade;
+        this.bairro = modelo.bairro;
+        this.rua = modelo.rua;
+        this.numero = modelo.numero;
+        this.complemento = modelo.complemento;
+    }
+
     public void setEmail(String email) throws Exception {
         if(email.length() > 50)
             throw new Exception("o comprimento deve ser menor que 50 caracteres");
@@ -93,4 +106,57 @@ public class Cliente{
     public int getNumero() {
         return numero;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "email='" + email + '\'' +
+                ", nome='" + nome + '\'' +
+                ", estado='" + estado + '\'' +
+                ", cidade='" + cidade + '\'' +
+                ", bairro='" + bairro + '\'' +
+                ", rua='" + rua + '\'' +
+                ", complemento='" + complemento + '\'' +
+                ", numero=" + numero +
+                '}';
+    }
+    public boolean equals(Object obj){
+        if(obj == null)
+            return false;
+        if(obj == this)
+            return true;
+        if(obj.getClass() != this.getClass())
+            return false;
+        Cliente cli = (Cliente) obj;
+        if(!cli.bairro.equals(this.bairro) || !cli.cidade.equals(this.cidade)|| !cli.rua.equals(this.rua)
+                || cli.numero != this.numero || !cli.email.equals(this.email) || !cli.complemento.equals(complemento)
+                || !cli.estado.equals(this.estado) || !!cli.nome.equals(nome) )
+            return false;
+        return true;
+    }
+    public int haschCode()
+    {
+        int ret = 666;
+        ret = ret * 5 + this.email.hashCode();
+        ret = ret * 5 + this.nome.hashCode();
+        ret = ret * 5 + this.estado.hashCode();
+        ret = ret * 5 + this.cidade.hashCode();
+        ret = ret * 5 + this.bairro.hashCode();
+        ret = ret * 5 + this.rua.hashCode();
+        ret = ret* 5 + new Integer(this.numero).hashCode();
+        if(ret<0)
+            ret = -ret;
+
+        return ret;
+    }
+    public Object clone(){
+        Cliente clone = null;
+        try{
+            clone = new Cliente(this);
+        }
+        catch (Exception e)
+        {}
+        return clone;
+    }
+
 }
