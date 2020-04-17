@@ -19,11 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1da8f1d7-7a2a-4568-927c-5af868628446" name="Default Changelist" comment="" />
+    <list default="true" id="1da8f1d7-7a2a-4568-927c-5af868628446" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/BDSQLServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bd/BDSQLServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,9 +54,28 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git hub\CRUD\src" />
       <recent name="D:\Git hub\CRUD" />
       <recent name="D:\Git hub\CRUD\src\dao" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Menu" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="formularios.Menu" />
+      <module name="CRUD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="formularios.Menu" />
+      <module name="CRUD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586788145804</updated>
-      <workItem from="1586788151119" duration="8150000" />
+      <workItem from="1586788151119" duration="13487000" />
+      <workItem from="1587145495645" duration="781000" />
     </task>
     <servers />
   </component>
@@ -75,12 +105,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1586788229097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586788229097" />
+    <state x="71" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586892376665">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="71" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586892376665" />
     <state x="328" y="51" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1586790577167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -89,9 +124,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586791528886" />
+    <state x="346" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586892126211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586892126211" />
     <state x="466" y="258" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586804427755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="258" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1586804427755" />
+    <state x="557" y="248" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1586893245345">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="248" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.1366.728@0.0.1366.728" timestamp="1586893245345" />
+    <state x="397" y="118" key="FileChooserDialogImpl" timestamp="1586892218409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="397" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586892218409" />
+    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1586893114638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586893114638" />
+    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1586893114637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586893114637" />
+    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1586893114637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586893114637" />
+    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1586893114638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586893114638" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1586888470301">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586888470301" />
   </component>
 </project>

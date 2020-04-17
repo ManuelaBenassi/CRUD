@@ -1,7 +1,7 @@
 package bd;
 
 import bd.core.*;
-import bd.daos.*;
+import bd.dao.*;
 
 public class BDSQLServer
 {
