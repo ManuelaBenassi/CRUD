@@ -8,7 +8,16 @@ public class Menu {
     private JButton btnRead;
     private JButton btnAtualizar;
     private JButton btnDeletar;
-    private JTextField textField1;
+    private JTextField txtEmail;
+    private JTextField txtNome;
+    private JTextField txtCEP;
+    private JTextField txtEstado;
+    private JTextField txtCidade;
+    private JTextField txtBairro;
+    private JTextField txtRua;
+    private JTextField txtNumero;
+    private JTextField txtComplemento;
+    private JButton btnProcurarCEP;
 
     public static void main(String[] args) {
     JFrame menu = new JFrame("CRUD clientes");
@@ -16,6 +25,7 @@ public class Menu {
     menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     menu.pack();
     menu.setVisible(true);
+
     }
 
 }

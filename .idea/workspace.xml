@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1da8f1d7-7a2a-4568-927c-5af868628446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bd/BDSQLServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bd/BDSQLServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/formularios/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUD/formularios/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formularios/Menu.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/formularios/Menu.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formularios/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formularios/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git hub\CRUD\src\webServer" />
       <recent name="D:\Git hub\CRUD\src" />
       <recent name="D:\Git hub\CRUD" />
       <recent name="D:\Git hub\CRUD\src\dao" />
@@ -88,7 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1586788145804</updated>
       <workItem from="1586788151119" duration="13487000" />
-      <workItem from="1587145495645" duration="781000" />
+      <workItem from="1587145495645" duration="2094000" />
+      <workItem from="1587243247128" duration="1730000" />
+      <workItem from="1587245111122" duration="306000" />
     </task>
     <servers />
   </component>
@@ -140,25 +145,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586892218409" />
-    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1586893114638">
+    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1587245089619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586893114638" />
-    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1586893114637">
+    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
+    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1587245089619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586893114637" />
-    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1586893114637">
+    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
+    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1587245089619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586893114637" />
-    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1586893114638">
+    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
+    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1587245089619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586893114638" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1586888470301">
+    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1587243482836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586888470301" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587243482836" />
   </component>
 </project>
