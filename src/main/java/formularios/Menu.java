@@ -28,6 +28,7 @@ public class Menu {
     private JButton btnProcurarCEP;
 
     public Menu() {
+        naoPodeEditar(txtEstado,txtCidade,txtBairro,txtRua);
         btnRead.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -165,6 +166,7 @@ public class Menu {
 
     }
     public static void main(String[] args) {
+
     JFrame menu = new JFrame("CRUD clientes");
     menu.setContentPane(new Menu().panel1);
     menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
