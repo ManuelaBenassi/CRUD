@@ -20,15 +20,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da8f1d7-7a2a-4568-927c-5af868628446" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_6_5_2_jre8_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/formularios/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUD/formularios/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUD/formularios/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formularios/Menu.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/formularios/Menu.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formularios/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/formularios/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/bd/BDSQLServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/bd/core/MeuPreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/bd/core/MeuResultSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/bd/core/MeuStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/bd/dao/Clientes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/bd/dbo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUD/formularios/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/BDSQLServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/BDSQLServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/core/MeuPreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/core/MeuPreparedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/core/MeuResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/core/MeuResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/core/MeuStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/core/MeuStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/dao/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/dao/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd/dbo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bd/dbo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formularios/Menu.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formularios/Menu.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formularios/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/ClienteWS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/ClienteWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webServer/ClienteWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/InfoCidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/InfoCidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webServer/InfoCidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/InfoEstado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/InfoEstado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webServer/InfoEstado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/Logradouro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/Logradouro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webServer/Logradouro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webServer/jackson-all-1.9.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,8 +81,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/webServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webServer" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -62,7 +98,7 @@
       <recent name="D:\Git hub\CRUD\src\dao" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Menu">
     <configuration name="Menu" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="formularios.Menu" />
@@ -79,6 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="postgresql4225.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/postgresql4225.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.postgresql4225.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +138,8 @@
       <workItem from="1586788151119" duration="13487000" />
       <workItem from="1587145495645" duration="2094000" />
       <workItem from="1587243247128" duration="1730000" />
-      <workItem from="1587245111122" duration="306000" />
+      <workItem from="1587245111122" duration="1218000" />
+      <workItem from="1587390077794" duration="7165000" />
     </task>
     <servers />
   </component>
@@ -113,6 +159,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="100" key="#HTTP_Proxy" timestamp="1587390400121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="100" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1587390400121" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1586788229097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -125,14 +175,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="328" y="51" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586790577167" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1586791528886">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1587401495318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586791528886" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587401495318" />
     <state x="346" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586892126211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586892126211" />
+    <state x="313" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587398459867">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="313" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1587398459867" />
     <state x="466" y="258" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586804427755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -141,26 +195,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="248" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.1366.728@0.0.1366.728" timestamp="1586893245345" />
-    <state x="397" y="118" key="FileChooserDialogImpl" timestamp="1586892218409">
+    <state x="397" y="118" key="FileChooserDialogImpl" timestamp="1587393200497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="397" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586892218409" />
-    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1587245089619">
+    <state x="397" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587393200497" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587401361584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
-    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1587245089619">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587401361584" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587401361583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
-    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1587245089619">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587401361583" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587401361583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
-    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1587245089619">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587401361583" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587401361584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587245089619" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587401361584" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1587243482836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
